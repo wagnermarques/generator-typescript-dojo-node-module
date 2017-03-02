@@ -1,0 +1,48 @@
+{
+  "name": "generator-typescript-node-module",
+  "version": "0.0.1",
+  "description": "yo generator to generate nodejs typescript module",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "typescript"
+  ],
+  "homepage": "https://github.com/wagnermarquues/generator-typescript-node-module#readme",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagnermarques/generator-typescript-node-module.git"
+  },
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.11",
+    "gruntfile-editor": "^1.2.1",
+    "intern": "^3.4.2",
+    "intern-cli": "^0.1.2",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "request": "^2.79.0",
+    "tsd": "^0.6.0-beta.5",
+    "typescript": "^2.2.1",
+    "typings": "^2.1.0",
+    "yeoman-generator": "^1.1.0",
+    "yosay": "^2.0.0"
+  },
+  "author": {
+    "name": "wagnermarques",
+    "email": "wagnerdocri@gmail.com",
+    "url": "https://github.com/wagnermarques"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-typings": "^0.1.5"
+  }
+}

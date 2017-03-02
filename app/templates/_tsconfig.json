@@ -1,0 +1,28 @@
+{
+    "compileOnSave": true,
+    "version": "1.7.0",
+    "compilerOptions": {
+            "module": "AMD",
+            "noImplicitAny": true,
+            "removeComments": true,
+            "preserveConstEnums": true,
+            "sourceRoot" : "src",
+            "outDir": "dist/",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "dojo/*": ["./node_modules/dojo-typings/dojo/1.11/modules.d.ts"],
+            "dijit/*": ["./node_modules/dojo-typings/dijit/1.11/modules.d.ts"],
+            "dojox/*": ["./node_modules/dojo-typings/dojox/1.11/modules.d.ts"]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "./typings.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

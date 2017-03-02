@@ -1,0 +1,8 @@
+import { updatable } from "./model/github-project-hupdate-domain-model.ts";
+import { Project } from "./model/github-project-hupdate-domain-model.ts";
+
+let ProjectUpdater = class Project {
+    
+}
+
+export {  ProjectUpdater };
